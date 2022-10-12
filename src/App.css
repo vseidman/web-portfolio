@@ -82,6 +82,17 @@ p.danger {
 	color: red;
 }
 /************ Navbar Css ************/
+.logo-style{
+  width: 70px;
+}
+
+.name-style{
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+}
+
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -464,6 +475,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.animate__animated .animate__slideInUp{
+  --animate-delay: 2s;
 }
 
 /************ Projects Css ************/
