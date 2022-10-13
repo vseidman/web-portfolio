@@ -5,7 +5,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
-        <div className="social-icon">
+        <div className="link-icon">
           <a href="https://serv-u-jetpi.vercel.app">
             <img src={linkIcon} alt="" />
           </a>

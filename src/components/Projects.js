@@ -58,11 +58,11 @@ export const Projects = () => {
                       }
                     >
                       <Tab.Pane eventKey="first">
-                        <Row>
+                        {/* <Row>
                           {projects.map((project, index) => {
                             return <NewProjectCard key={index} {...project} />;
                           })}
-                        </Row>
+                        </Row> */}
                         <Row>
                           {projects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
